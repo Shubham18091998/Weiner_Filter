@@ -46,7 +46,7 @@ def main():
 
     win = 'deconvolution'
 
-    img = cv.imread('C:/Users/sbans/Pictures/frame.jpg', cv.IMREAD_GRAYSCALE)
+    img = cv.imread('./image_path', cv.IMREAD_GRAYSCALE) # Provide path to image here
 
     img = np.float32(img)/255.0
 
